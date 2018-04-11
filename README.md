@@ -55,7 +55,20 @@ Select the image and copy the url from the image detail page.
 
 ![gettingImageUrl](http://image.em.guess.com/lib/fe3915707564047c701378/m/4/4b7fe862-441b-4f68-9f86-aba785f6a460.gif?b=1523471349000)
 
+
+
+####Replacing a slice
+
+When a slice needs to be updated, if the url of the old image is already in your html the fastest way to do it is replacing the the slice rather than the url. Salesforce will keep the url but load the new image. To replace the image go to the folder where is saved, it should match the day and month of the delivery for that email, find it based on the name of the email and hit replace in the dropdown menu, then select the new image to swap it.
+
+![replacingImage](http://image.em.guess.com/lib/fe3915707564047c701378/m/4/1343e4d1-349a-4135-abc0-fdc2e37fd723.gif?b=1523485436000)
+
+
+
+
+
 ## Creating a new email from template
+
 Once you have uploaded the image to the right folder in salesforce, navigate to the correct email folder and create a new email. In our example the ticket is for a Guess Factory product email on April 10th.
 We will go to Content Builder/FY2019/Q1/Guess Factory/PRODUCT and hit Create and from the drop down menu select email.
 ![createEmail](http://image.em.guess.com/lib/fe3915707564047c701378/m/4/1474e994-7a4d-48aa-8221-cb7c1c47b081.gif?b=1523379027000)
@@ -97,9 +110,13 @@ To add them, we need to select the right html content block. From the Lauout vie
 
 
 
-In the HTML editor that is served you need to update alias, href and src attributes for each slice starting from the left. Alias is the tag that is added to each click on this slices for reporting and tracking purpuses, href is the link where the slice should click to, you can find this in a document in the box folder of the ticket you are working on, and src is the url where the image lives.  [How to get image url?](#Retrieving Image url)
+In the HTML editor that is served after dropping the html block on the email, you need to update alias, href and src attributes for each slice starting from the left. "Alias" is the tag that is added to each click on this slices for reporting and tracking purpuses, "href" is the link where the slice should click to, you can find this in a document in the box folder of the ticket you are working on, and "src" is the url where the image lives.  [How to get image url?](#Retrieving-Image-url). Hit Done Editing when you finished.
 
 ![editMultislices](http://image.em.guess.com/lib/fe3915707564047c701378/m/4/3ffea843-f1d1-41b1-8466-bdbb7f71bf43.png?b=1523471010000) 
 
 
+
+##The Grid
+
+We created an external site called [GRIDSTER](https://gridie.herokuapp.com) that allows to produce a customized grid based on brand and category or any product list page (PLP). You can access it by going to https://gridie.herokuapp.com.
 
