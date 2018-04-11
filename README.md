@@ -3,11 +3,11 @@
 
 
 1. [You got a Jira ticket](https://github.com/vanpeta/salesforceEmails#you-got-a-jira-ticket)
-2. [Download slices from Box](Download-slices-from-Box)
-3. [Managing Images in SalesForce](#Managing-Images-in-SalesForce)
-4. [Create new email from template](#Creating-a-new-email-from-template)
-5. [Building a new email](#Building-a-new-email)
-   - [Inserting the slices](#Inserting-the-slices)
+2. [Download slices from Box](#download-slices-from-box)
+3. [Managing Images in SalesForce](https://github.com/vanpeta/salesforceEmails#managing-images-in-salesforce)
+4. [Create new email from template](https://github.com/vanpeta/salesforceEmails#creating-a-new-email-from-template)
+5. [Building a new email](https://github.com/vanpeta/salesforceEmails#creating-a-new-email-from-template)
+   - [Inserting the slices](https://github.com/vanpeta/salesforceEmails#inserting-the-slices)
    - [Multiple slices in one row](#Multiple-slices-in-one-row)
 6. [Editing existing parts of the masterTemplate](#Editing-existing-parts-of-the-masterTemplate)
 
