@@ -120,3 +120,12 @@ In the HTML editor that is served after dropping the html block on the email, yo
 
 We created an external site called [GRIDSTER](https://gridie.herokuapp.com) that allows to produce a customized grid based on brand and category or any product list page (PLP). You can access it by going to https://gridie.herokuapp.com.
 
+
+
+
+
+
+
+
+
+For more information contact: callende@guess.com
