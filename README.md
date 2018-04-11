@@ -2,7 +2,7 @@
 # Building email deliveries with salesforce
 
 
-1. [You got a Jira ticket](vanpeta/salesforceEmails#You-got-a-Jira-ticket)
+1. [You got a Jira ticket](https://github.com/vanpeta/salesforceEmails#you-got-a-jira-ticket)
 2. [Download slices from Box](Download-slices-from-Box)
 3. [Managing Images in SalesForce](#Managing-Images-in-SalesForce)
 4. [Create new email from template](#Creating-a-new-email-from-template)
