@@ -2,7 +2,7 @@
 # Building email deliveries with salesforce
 
 
-1. [You got a Jira ticket][#You-got-a-Jira-ticket]
+1. [You got a Jira ticket](README#You-got-a-Jira-ticket)
 2. [Download slices from Box](Download-slices-from-Box)
 3. [Managing Images in SalesForce](#Managing-Images-in-SalesForce)
 4. [Create new email from template](#Creating-a-new-email-from-template)
@@ -129,3 +129,5 @@ We created an external site called [GRIDSTER](https://gridie.herokuapp.com) that
 
 
 For more information contact: callende@guess.com
+
+[#You-got-a-Jira-ticket]: 
