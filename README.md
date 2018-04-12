@@ -46,7 +46,8 @@ Go to email ticket's folder and download the slices for the email you want to bu
 #### Uploading Images
 
 We usually get a zip folder with the slices, remember to extract those images in order to be able to upload them to salesforce.
-We also need to keep organized salesforce FTP server file system in case we need to update a slice. We upload the new images to the folder with the right date name, inside the pictures folder. In this case we navigate to pictures then to FY19, then month April and finally day, the 10th, once we are in that folder dragging and dropping the images will upload them to salesforce.
+We also need to keep organized salesforce FTP server file system in case we need to update a slice. To create a new folder right click on the parent directory and select create folder, then give it a name. Please follow the naming convention, use two digits for the day.
+We upload the new images to the folder with the right date name, inside the pictures folder. In this case we navigate to pictures then to FY19, then month April and finally day, the 10th, once we are in that folder dragging and dropping the images will upload them to salesforce.
 
 ![unzipAndUpload](unzipAndUpload.gif)
 
