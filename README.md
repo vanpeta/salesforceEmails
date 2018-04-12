@@ -97,7 +97,6 @@ From the layout view of the edit email window select the Image wizard from the B
 
 
 
-
 ####Multiple slices in one row
 
 In the case that we need to add more than one image in a row we have prepared special HTML blocks that contain all the code necessariy to build a row with 2, 3, 4, 5, and 6 slices. You can find this blocks under the Template Blocks folder inside Content Builder.
