@@ -72,7 +72,7 @@ When a slice needs to be updated, if the url of the old image is already in your
 
 ## Creating a new email from template
 
-Once you have [uploaded all the slices to the right folder in salesforce](#Uploading-Images), navigate to the correct email folder and create a new email. In our example the ticket is for a Guess Factory product email on April 10th.
+Once you have [uploaded all the slices to the right folder in salesforce](#uploading-images), navigate to the correct email folder and create a new email. In our example the ticket is for a Guess Factory product email on April 10th.
 We will go to Content Builder/FY2019/Q1/Guess Factory/PRODUCT and hit Create and from the drop down menu select email.
 ![createEmail](editingEmail.gif)
 Make sure to choose "from template" when creating the new email and pick the right masterTemplate for your brand and country.
