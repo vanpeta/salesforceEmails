@@ -2,12 +2,12 @@
 # Building email deliveries with salesforce
 
 
-1. [You got a Jira ticket](https://github.com/vanpeta/salesforceEmails#you-got-a-jira-ticket)
+1. [You got a Jira ticket](#you-got-a-jira-ticket)
 2. [Download slices from Box](#download-slices-from-box)
-3. [Managing Images in SalesForce](https://github.com/vanpeta/salesforceEmails#managing-images-in-salesforce)
-4. [Create new email from template](https://github.com/vanpeta/salesforceEmails#creating-a-new-email-from-template)
-5. [Building a new email](https://github.com/vanpeta/salesforceEmails#creating-a-new-email-from-template)
-   - [Inserting the slices](https://github.com/vanpeta/salesforceEmails#inserting-the-slices)
+3. [Managing Images in SalesForce](#managing-images-in-salesforce)
+4. [Create new email from template](#creating-a-new-email-from-template)
+5. [Building a new email](#creating-a-new-email-from-template)
+   - [Inserting the slices](#inserting-the-slices)
    - [Multiple slices in one row](#Multiple-slices-in-one-row)
 6. [Editing existing parts of the masterTemplate](#Editing-existing-parts-of-the-masterTemplate)
 
@@ -92,9 +92,7 @@ If you want that the changes you just made to a specific part of the template to
 
 #### Inserting the slices
 From the layout view of the edit email window select the Image wizard from the Blocks tabs. The wizard will ask you what image you want to insert, browse to the folder where you previously saved the image for this email, it should match the date in which will be sent. Then add "alt" and "alias" values. Alt will render in case the picture fails to be loaded and alias is the tag which clicks on this slice will be tracked.
-![addingImages](http://image.em.guess.com/lib/fe3915707564047c701378/m/4/b11dcdbb-bb03-4b2d-84a7-90eb61e13d8b.gif?b=1523384107000) 
-
-
+![addingImages](http://image.em.guess.com/lib/fe3915707564047c701378/m/4/b11dcdbb-bb03-4b2d-84a7-90eb61e13d8b.gif?b=1523384107000)
 
 ####Multiple slices in one row
 
@@ -130,4 +128,3 @@ We created an external site called [GRIDSTER](https://gridie.herokuapp.com) that
 
 For more information contact: callende@guess.com
 
-[#You-got-a-Jira-ticket]: 
