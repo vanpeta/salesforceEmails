@@ -98,6 +98,8 @@ From the layout view of the edit email window select the Image wizard from the B
 
 ####Multiple slices in one row
 
+####Inserting the slices
+
 ####Multiple slices in one row
 
 ####Multiple slices in one row
