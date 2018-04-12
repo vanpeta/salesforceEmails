@@ -8,7 +8,7 @@
 4. [Create new email from template](#creating-a-new-email-from-template)
 5. [Building a new email](#creating-a-new-email-from-template)
    - [Inserting the slices](#inserting-the-slices)
-   - [Multiple slices in one row](#Multiple-slices-in-one-row)
+   - [Multiple slices in one row](#multiple-slices-in-one-row)
 6. [Editing existing parts of the masterTemplate](#Editing-existing-parts-of-the-masterTemplate)
 
 
@@ -17,13 +17,13 @@
 
 ## You got a Jira ticket
 From the email notification go to Jira.
-![emailNotificationJiraAssigment](http://image.em.guess.com/lib/fe3915707564047c701378/m/4/f6720662-9800-4754-90d4-bb3157b2adaf.png?b=1523374161000)
+![emailNotificationJiraAssigment](jiraTicket.png)
 
 
 
 You will need to remember the day this email is going to be sent to save the images in the proper folder later. In the screenshot example 4-10.
 Once in Jira go to the ticket's folder in Box.
-![jiraTicket](http://image.em.guess.com/lib/fe3915707564047c701378/m/4/e317a63e-7173-480b-9b88-8a7684599a53.png?b=1523374286000)
+![jiraTicket](jiraTicketData.png)
 
 
 
@@ -32,20 +32,20 @@ Once in Jira go to the ticket's folder in Box.
 ## Download slices from Box
 
 Go to email ticket's folder and download the slices for the email you want to build.
-![download images](http://image.em.guess.com/lib/fe3915707564047c701378/m/4/919cae0c-912d-428a-b16a-7be8c4b885cd.gif?b=1523372513000)
+![download images](downloadSlices.gif)
 
 
 
 
 
-## Managing Images in SalesForce
+## Managing Images to SalesForce
 
 ####Uploading Images
 
 We usually get a zip folder with the slices, remember to extract those images in order to be able to upload them to salesforce.
 We also need to keep organized salesforce FTP server file system in case we need to update a slice. We upload the new images to the folder with the right date name, inside the pictures folder. In this case we navigate to pictures then to FY19, then month April and finally day, the 10th, once we are in that folder dragging and dropping the images will upload them to salesforce.
 
-![unzipAndUpload](http://image.em.guess.com/lib/fe3915707564047c701378/m/4/c930741a-0994-4997-8372-189ea4884051.gif?b=1523375194000)
+![unzipAndUpload](unzipAndUpload.gif)
 
 
 
@@ -71,7 +71,7 @@ When a slice needs to be updated, if the url of the old image is already in your
 
 Once you have uploaded the image to the right folder in salesforce, navigate to the correct email folder and create a new email. In our example the ticket is for a Guess Factory product email on April 10th.
 We will go to Content Builder/FY2019/Q1/Guess Factory/PRODUCT and hit Create and from the drop down menu select email.
-![createEmail](http://image.em.guess.com/lib/fe3915707564047c701378/m/4/1474e994-7a4d-48aa-8221-cb7c1c47b081.gif?b=1523379027000)
+![createEmail](editingEmail.gif)
 Make sure to choose "from template" when creating the new email and pick the right masterTemplate for your brand and country.
 Then, give it the right name, you can get it from the Jira ticket and save it in your current folder which should be named after the day, month, quarter, and brand you are working on.
 
@@ -92,6 +92,7 @@ If you want that the changes you just made to a specific part of the template to
 
 #### Inserting the slices
 From the layout view of the edit email window select the Image wizard from the Blocks tabs. The wizard will ask you what image you want to insert, browse to the folder where you previously saved the image for this email, it should match the date in which will be sent. Then add "alt" and "alias" values. Alt will render in case the picture fails to be loaded and alias is the tag which clicks on this slice will be tracked.
+![addingImages](http://image.em.guess.com/lib/fe3915707564047c701378/m/4/b11dcdbb-bb03-4b2d-84a7-90eb61e13d8b.gif?b=1523384107000)
 
 
 
