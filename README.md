@@ -6,7 +6,7 @@
 2. [Download slices from Box](#download-slices-from-box)
 3. [Managing Images in SalesForce](#managing-images-to-salesforce)
    - [Uploading Images to Salesforce](#managing-images-to-salesforce)
-   - [Retrieving Images url in Salesforce](#managing-images-to-salesforce)
+   - [Retrieving Images url in Salesforce](#retrieving-image-url)
    - [Replacing a slice](Replacing-a-slice)
 4. [Create new email from template](#creating-a-new-email-from-template)
 5. [Building a new email](#creating-a-new-email-from-template)
