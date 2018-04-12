@@ -92,15 +92,11 @@ If you want that the changes you just made to a specific part of the template to
 
 #### Inserting the slices
 From the layout view of the edit email window select the Image wizard from the Blocks tabs. The wizard will ask you what image you want to insert, browse to the folder where you previously saved the image for this email, it should match the date in which will be sent. Then add "alt" and "alias" values. Alt will render in case the picture fails to be loaded and alias is the tag which clicks on this slice will be tracked.
-![addingImages](http://image.em.guess.com/lib/fe3915707564047c701378/m/4/b11dcdbb-bb03-4b2d-84a7-90eb61e13d8b.gif?b=1523384107000)
 
 
 
-####Multiple slices in one row
 
-####Inserting the slices
 
-####Multiple slices in one row
 
 ####Multiple slices in one row
 
