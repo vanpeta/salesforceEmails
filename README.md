@@ -41,7 +41,7 @@ Go to email ticket's folder and download the slices for the email you want to bu
 
 
 
-## Managing Images to SalesForce
+## Managing Images in SalesForce
 
 #### Uploading Images
 
