@@ -118,7 +118,7 @@ To add them, we need to select the right html content block. From the Lauout vie
 
 
 
-In the HTML editor that is served after dropping the html block on the email, you need to update alias, href and src attributes for each slice starting from the left. "Alias" is the tag that is added to each click on this slices for reporting and tracking purpuses, "href" is the link where the slice should click to, you can find this in a document in the box folder of the ticket you are working on, and "src" is the url where the image lives.  [How to get image url?](#Retrieving-Image-url). Hit Done Editing when you finished.
+In the HTML editor that is served after dropping the html block on the email, you need to update alias, href and src attributes for each slice starting from the left. "Alias" is the tag that is added to each click on this slices for reporting and tracking purpuses, "href" is the link where the slice should click to, you can find this in a document in the box folder of the ticket you are working on, and "src" is the url where the image lives.  [How to get image url?](#retrieving-image-url). Hit Done Editing when you finished.
 
 ![editMultislices](http://image.em.guess.com/lib/fe3915707564047c701378/m/4/3ffea843-f1d1-41b1-8466-bdbb7f71bf43.png?b=1523471010000) 
 
