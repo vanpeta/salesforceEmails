@@ -10,7 +10,7 @@
    - [Replacing a slice](Replacing-a-slice)
 4. [Create new email from template](#creating-a-new-email-from-template)
 5. [Building a new email](#creating-a-new-email-from-template)
-   - [Inserting the slices](#inserting-the-slices)
+   - [Inserting slices into an email](#inserting-slices)
    - [Multiple slices in one row](#multiple-slices-in-one-row)
 6. [Editing existing parts of the masterTemplate](#Editing-existing-parts-of-the-masterTemplate)
 
