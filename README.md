@@ -43,7 +43,7 @@ Go to email ticket's folder and download the slices for the email you want to bu
 
 ## Managing Images to SalesForce
 
-####Uploading Images
+#### Uploading Images
 
 We usually get a zip folder with the slices, remember to extract those images in order to be able to upload them to salesforce.
 We also need to keep organized salesforce FTP server file system in case we need to update a slice. We upload the new images to the folder with the right date name, inside the pictures folder. In this case we navigate to pictures then to FY19, then month April and finally day, the 10th, once we are in that folder dragging and dropping the images will upload them to salesforce.
@@ -60,7 +60,7 @@ Select the image and copy the url from the image detail page.
 
 
 
-####Replacing a slice
+#### Replacing a slice
 
 When a slice needs to be updated, if the url of the old image is already in your html the fastest way to do it is replacing the the slice rather than the url. Salesforce will keep the url but load the new image. To replace the image go to the folder where is saved, it should match the day and month of the delivery for that email, find it based on the name of the email and hit replace in the dropdown menu, then select the new image to swap it.
 
@@ -72,11 +72,14 @@ When a slice needs to be updated, if the url of the old image is already in your
 
 ## Creating a new email from template
 
-Once you have uploaded the image to the right folder in salesforce, navigate to the correct email folder and create a new email. In our example the ticket is for a Guess Factory product email on April 10th.
+Once you have [uploaded all the slices to the right folder in salesforce](#Uploading-Images), navigate to the correct email folder and create a new email. In our example the ticket is for a Guess Factory product email on April 10th.
 We will go to Content Builder/FY2019/Q1/Guess Factory/PRODUCT and hit Create and from the drop down menu select email.
 ![createEmail](editingEmail.gif)
 Make sure to choose "from template" when creating the new email and pick the right masterTemplate for your brand and country.
 Then, give it the right name, you can get it from the Jira ticket and save it in your current folder which should be named after the day, month, quarter, and brand you are working on.
+
+Emails created this way look a bit different in the folder they are saved in. You will notice it says email created from template.
+![emailType](emailTypeTemplateBasedEmail.png)
 
 
 
@@ -88,12 +91,12 @@ Once you have updated the subject, be sure to select the Layout tab, and you can
 
 
 
-If you want that the changes you just made to a specific part of the template to remain the same for the next email you create for this brand and country, update the part before leaving this snippet.
+If you want that the changes you just made to a specific part of the template to remain  for the next email you create for this brand and country, update the part before leaving this snippet.
 ![updateTemplate](http://image.em.guess.com/lib/fe3915707564047c701378/m/4/b0eb4006-c5fe-44af-8519-9fec7431f9e4.png?b=1523380900000)
 
 
 
-#### Inserting the slices
+#### Inserting slices
 From the layout view of the edit email window select the Image wizard from the Blocks tabs. The wizard will ask you what image you want to insert, browse to the folder where you previously saved the image for this email, it should match the date in which will be sent. Then add "alt" and "alias" values. Alt will render in case the picture fails to be loaded and alias is the tag which clicks on this slice will be tracked.
 ![addingImages](http://image.em.guess.com/lib/fe3915707564047c701378/m/4/b11dcdbb-bb03-4b2d-84a7-90eb61e13d8b.gif?b=1523384107000)
 
@@ -101,7 +104,7 @@ From the layout view of the edit email window select the Image wizard from the B
 
 
 
-####Multiple slices in one row
+#### Multiple slices in one row
 
 In the case that we need to add more than one image in a row we have prepared special HTML blocks that contain all the code necessariy to build a row with 2, 3, 4, 5, and 6 slices. You can find this blocks under the Template Blocks folder inside Content Builder.
 
@@ -121,7 +124,7 @@ In the HTML editor that is served after dropping the html block on the email, yo
 
 
 
-##The Grid
+## The Grid
 
 We created an external site called [GRIDSTER](https://gridie.herokuapp.com) that allows to produce a customized grid based on brand and category or any product list page (PLP). You can access it by going to https://gridie.herokuapp.com.
 
